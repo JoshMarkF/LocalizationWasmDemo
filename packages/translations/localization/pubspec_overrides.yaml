@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: text_key
+dependency_overrides:
+  text_key:
+    path: ../text_key

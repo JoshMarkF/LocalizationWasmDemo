@@ -1,0 +1,36 @@
+name: localization_wasm_demo
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  easy_localization: ^3.0.7+1
+  dart_style: ^3.1.0
+  localization:
+    path: packages/translations/localization
+  text_key:
+    path: packages/translations/text_key
+  text_keys_shared:
+    path: packages/translations/text_keys_shared
+  easy_logger: ^0.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/lang/

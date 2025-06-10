@@ -1,0 +1,20 @@
+name: localization
+description: Provides utilities to localize text keys.
+version: 0.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  easy_localization: ^3.0.3
+  flutter:
+    sdk: flutter
+  text_key:
+    path: ../text_key
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter

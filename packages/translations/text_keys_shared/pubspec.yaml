@@ -1,0 +1,16 @@
+name: text_keys_shared
+description: The text keys used on both mobile and web.
+version: 0.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.4.3
+
+# Add regular dependencies here.
+dependencies:
+  text_key:
+    path: ../text_key
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
